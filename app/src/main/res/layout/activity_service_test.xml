@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kr.co.tjeit.servicepractice.ServiceTestActivity">
+
+    <Button
+        android:id="@+id/startCountBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="음악 재생"/>
+
+    <Button
+        android:id="@+id/endCountBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="음악 정지"/>
+
+    <Button
+        android:id="@+id/getCurrentNumBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="현재 숫자 가져오기"/>
+
+
+
+
+</LinearLayout>
